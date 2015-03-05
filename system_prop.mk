@@ -48,3 +48,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# Team Nocturnal Tweaks
+
+# Home Screen Rotation
+
+PRODUCT_PROPERTY_OVERRIDES += \
+log.tag.launcher_force_rotate=VERBOSE
