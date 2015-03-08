@@ -49,9 +49,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
 
-# Team Nocturnal Tweaks
+# TN Tweeks
 
-# Home Screen Rotation
-
+# Enable Screen Rotation
 PRODUCT_PROPERTY_OVERRIDES += \
-log.tag.launcher_force_rotate=VERBOSE
+   log.tag.launcher_force_rotate=VERBOSE
