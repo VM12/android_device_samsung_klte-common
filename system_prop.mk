@@ -17,7 +17,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hdcp2.rx=tz \
     ro.qualcomm.cabl=1 \
     ro.secwvk=144 \
-    ro.sf.lcd_density=480
+    ro.sf.lcd_density=480 \
+    persist.sys.lcd_density=480
 
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -35,6 +36,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=true \
     persist.radio.add_power_save=1 \
     persist.radio.lte_vrat_report=1 \
+    ro.telephony.mms_data_profile=5 \
     ro.telephony.ril_class=KlteRIL
 
 # Sensors
